@@ -8,10 +8,9 @@ const HomePage = () => {
     <div>
       <Hero />
       <HomeCards />
-      <JobListings />
+      <JobListings homePage = {true} />
       <ViewAllJobs />
     </div>
   )
 }
-
-export default HomePage
+export default HomePage;
