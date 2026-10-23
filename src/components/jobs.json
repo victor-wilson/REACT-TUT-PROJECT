@@ -1,5 +1,5 @@
 {
- "jobs" :[
+  "jobs": [
     {
       "id": "1",
       "title": "Senior React Developer",
@@ -14,7 +14,8 @@
         "contactPhone": "555-555-5555"
       }
     },
-    {"id": "2",
+    {
+      "id": "2",
       "title": "Front-End Engineer (React & Redux)",
       "type": "Full-Time",
       "location": "FCT, Abuja",
@@ -82,8 +83,34 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "type": "Remote",
+      "title": "Back-end Engineer  (PHP, Laravel)",
+      "description": "Responsible for handling all back-end roles",
+      "salary": "Under $50K",
+      "location": "Lagos State",
+      "company": {
+        "name": "AUGUZ NIG LTD",
+        "description": "Building quality software products",
+        "contactEmail": "victoronuoha03@gmail.com",
+        "contactPhone": "08022552972"
+      },
+      "id": "xOy6eBv"
+    },
+    {
+      "type": "Internship",
+      "title": "Front-end Engineer",
+      "description": "Responsible for handling all front-end related jobs in building software",
+      "salary": "$90K - 100K",
+      "location": "Abuja",
+      "company": {
+        "name": "WILSON INC",
+        "description": "Specializes in building high-end softwares",
+        "contactEmail": "victoronuoha03@gmail.com",
+        "contactPhone": "07067089461"
+      },
+      "id": "RYWz1DZ"
     }
   ]
 }
-
-
