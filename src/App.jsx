@@ -31,7 +31,8 @@ const addJob = async (newJob) => {
         <Route index element={<HomePage />} />
         <Route path="/jobs" element={<JobsPage />} />
         <Route path="/jobs/:id" element={<PageForJob />} loader={JobLoader} />
-        <Route path="/add-job" element={<AddJobPage addJobSubmit={addJob}/>} />
+        <Route path="/add-job" element={<AddJobPage addJobSubmit={addJob} />} />
+        <Route path="/add-job/:id" element={<AddJobPage addJobSubmit={addJob}/>} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     )
