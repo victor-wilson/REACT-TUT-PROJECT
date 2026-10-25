@@ -97,20 +97,6 @@
         "contactPhone": "08022552972"
       },
       "id": "xOy6eBv"
-    },
-    {
-      "type": "Internship",
-      "title": "Front-end Engineer",
-      "description": "Responsible for handling all front-end related jobs in building software",
-      "salary": "$90K - 100K",
-      "location": "Abuja",
-      "company": {
-        "name": "WILSON INC",
-        "description": "Specializes in building high-end softwares",
-        "contactEmail": "victoronuoha03@gmail.com",
-        "contactPhone": "07067089461"
-      },
-      "id": "RYWz1DZ"
     }
   ]
 }
