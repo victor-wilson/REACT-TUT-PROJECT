@@ -86,17 +86,17 @@
     },
     {
       "type": "Remote",
-      "title": "Back-end Engineer  (PHP, Laravel)",
-      "description": "Responsible for handling all back-end roles",
+      "title": "Data Analyst",
+      "description": "A Data Analyst acts as a bridge between raw data and business decision-making. They collect, process, and perform statistical analyses on large datasets to help organizations understand trends, solve problems, and make informed strategic choices",
       "salary": "Under $50K",
-      "location": "Lagos State",
+      "location": "Lagos State, Nigeria",
       "company": {
-        "name": "AUGUZ NIG LTD",
-        "description": "Building quality software products",
+        "name": "Google",
+        "description": "Google is a global technology leader specializing in Internet-related services and products. While it started primarily as a web search engine, its ecosystem has expanded into nearly every sector of digital technology",
         "contactEmail": "victoronuoha03@gmail.com",
         "contactPhone": "08022552972"
       },
-      "id": "xOy6eBv"
+      "id": "5TZcZYo"
     }
   ]
 }

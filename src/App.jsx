@@ -9,6 +9,7 @@ import JobsPage from './pages/JobsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import PageForJob, { JobLoader } from './pages/PageForJob';
 import AddJobPage from './pages/AddJobPage';
+import EditJobPage from './pages/EditJobPage';
 
 
 const App = () => {
@@ -29,8 +30,11 @@ const addJob = async (newJob) => {
         method: 'DELETE',
       });
       
-      return;
+      if (!res.ok) {
+        throw new Error (`Delete failed: ${res.status}`);
+      }
   }
+
   //Page Routers for each page on the app
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -44,6 +48,7 @@ const addJob = async (newJob) => {
         />
         <Route path="/add-job" element={<AddJobPage addJobSubmit={addJob} />} />
         <Route path="/add-job/:id" element={<AddJobPage addJobSubmit={addJob}/>} />
+        <Route path='/edit-job/:id' element={ <EditJobPage />} loader={JobLoader}/>
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     )
